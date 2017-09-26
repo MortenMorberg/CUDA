@@ -24,10 +24,10 @@ void postProcess(const unsigned int* const outputVals,
                  const size_t numElems,
                  const std::string& output_file);
 
-void your_sort(unsigned int* const inputVals,
-               unsigned int* const inputPos,
-               unsigned int* const outputVals,
-               unsigned int* const outputPos,
+void your_sort(unsigned int*  inputVals,
+               unsigned int*  inputPos,
+               unsigned int*  outputVals,
+               unsigned int*  outputPos,
                const size_t numElems);
 
 int main(int argc, char **argv) {
