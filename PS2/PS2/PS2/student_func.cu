@@ -167,6 +167,7 @@ __global__ void separateChannels(const uchar4* const inputImageRGBA,
 								 unsigned char* const redChannel,
 								 unsigned char* const greenChannel,
 								 unsigned char* const blueChannel)
+
 {
 	// TODO
 	//
